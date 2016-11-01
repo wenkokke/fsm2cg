@@ -31,7 +31,7 @@ toCG3 (fsa :: FSA state word) = unlines . concat $
   , [[]]
   , ["AFTER-SECTIONS"]
   , ["REMCOHORT (*) IF (1* <<< LINK NOT 0 FINAL);"]
-  , ["REMCOHOR <<< (NOT 0 FINAL);"]
+  , ["REMCOHORT <<< (NOT 0 FINAL);"]
   ]
   where
     state' s        = printf "SET %s = (%s);" (uc s) (lc s)

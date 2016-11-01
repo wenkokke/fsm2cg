@@ -43,7 +43,7 @@ ADD S1 C IF (-1 S1);
 
 AFTER-SECTIONS
 REMCOHORT (*) IF (1* <<< LINK NOT 0 FINAL);
-REMCOHOR <<< (NOT 0 FINAL);
+REMCOHORT <<< (NOT 0 FINAL);
 ```
 
 This will either accept the string (and leave all cohorts and readings
