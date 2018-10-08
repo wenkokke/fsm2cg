@@ -2,12 +2,12 @@ name:                fsm2cg
 version:             0.1.0.0
 synopsis:            Small executable which reads finite state machines and produces CG3 code.
 description:         Please see README.md
-homepage:            https://github.com/pepijnkokke/fsm2cg#readme
+homepage:            https://github.com/wenkokke/fsm2cg#readme
 license:             MIT
 license-file:        LICENSE
-author:              Pepijn Kokke
-maintainer:          pepijn.kokke@gmail.com
-copyright:           (c) 2016 Pepijn Kokke
+author:              Wen Kokke
+maintainer:          wen.kokke@gmail.com
+copyright:           (c) 2016 wen Kokke
 category:            Web
 build-type:          Simple
 cabal-version:       >=1.10
@@ -28,4 +28,4 @@ executable fsm2cg
 
 source-repository head
   type:     git
-  location: https://github.com/pepijnkokke/fsm2cg
+  location: https://github.com/wenkokke/fsm2cg
